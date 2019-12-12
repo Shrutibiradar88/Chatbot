@@ -30,5 +30,11 @@ Three important points in the code
 * The inital_state call argument, specifying the initial state(s) of a RNN. This is used to pass the encoder states to the decoder as initial states.
 * The return_sequences constructor argument, configuring a LSTM to return its full sequence of outputs (instead of just the last output, which the defaults behavior). This is used in the decoder.
 
+Scope for future work....
+
+Attention: The input to the decoder is a single vector which has to store all the information about the context. This becomes a problem with large sequences. Hence the attention mechanism is applied which allows the decoder to look at the input sequence selectively.
+Beam Search: The highest probability word is selected as the output by the decoder. But this does not always yield the best results, because of the basic problem of greedy algorithms. Hence beam search is applied which suggests possible translations at each step. This is done making a tree of top k-results.
+Bucketing: Variable-length sequences are possible in a seq2seq model because of the padding of 0’s which is done to both input and output. However, if the max length set by us is 100 and the sentence is just 3 words long it causes huge wastage of space. So we use the concept of bucketing. We make buckets of different sizes like (4, 8) (8, 15) and so on, where 4 is the max input length defined by us and 8 is the max output length defined.
+
 
 
