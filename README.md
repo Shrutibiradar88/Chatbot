@@ -30,54 +30,6 @@ Three important points in the code
 * The inital_state call argument, specifying the initial state(s) of a RNN. This is used to pass the encoder states to the decoder as initial states.
 * The return_sequences constructor argument, configuring a LSTM to return its full sequence of outputs (instead of just the last output, which the defaults behavior). This is used in the decoder.
 
-Results (Ouput can also be seen at the end of the code in the two notebooks.)
-LSTM-Word Embedding Model //
-Enter question : who is this //
- i don't know the answer is what i bought this in my question i use mine for my new one end
-Enter question : what is battery life
- very good and getting on one of the unit but you get one with the tripod for the tripod mount end
-Enter question : does it last long
- i don't know the answer is but i bought this for my case end
-Enter question : how is the battery life
- the it's a 3 5 feet long end
-Enter question : will this fit my case
- yes it will end
-Enter question : who are you
- yes they are just better end
-Enter question : what will it be
- it might be a i would think that would work in my opinion end
-Enter question : how may days will it last
- i have to say it on a small at that it was made in my opinion end
-Enter question : what are opinions
- i purchased mine for 8 8 8 no longer available in end
-Enter question : how many days
- hi 10 1 4 x 1 4 x 1 4 x 1 1 end
-
-BILSTM-Word Embedding Model:
-Enter question : how long will it last
- i don't know it it end
-Enter question : who are you
- no no they are a this you you and it end
-Enter question : how long is the cord
- about about about 6 feet end
-Enter question : is the phone good
- no it is not you to use the phone end
-Enter question : does it have a flip
- no there no a remote end
-Enter question : is the screen big enough
- yes i can it at at the and it end
-Enter question : how long is it
- it it is the at at the at at at at end
-Enter question : is the electronics good
- yes i can it at at at at at at at at end
-Enter question : how long for charge
- the the and it was buy the picture end
-Enter question : is camera good
- yes it is and the film end
-
-
-
-
 
 Scope for future work....
 
