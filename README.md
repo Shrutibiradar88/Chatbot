@@ -31,8 +31,8 @@ Three important points in the code
 * The return_sequences constructor argument, configuring a LSTM to return its full sequence of outputs (instead of just the last output, which the defaults behavior). This is used in the decoder.
 
 Results (Ouput can also be seen at the end of the code in the two notebooks.)
-LSTM-Word Embedding Model
-Enter question : who is this
+LSTM-Word Embedding Model //
+Enter question : who is this //
  i don't know the answer is what i bought this in my question i use mine for my new one end
 Enter question : what is battery life
  very good and getting on one of the unit but you get one with the tripod for the tripod mount end
